@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My blog</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="./public/js/jquery.slides.min.js" defer="defer"></script>
+    <script src="./public/js/index.js" defer="defer"></script>
+</head>
+
+<body>
+
+    <main id="longinContent">
+        <header>
+            <div class="nav-bar">
+                <div class="container">
+                    <ul class="nav-ul">
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">About US</a></li>
+                        <li> <a href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="img-slice" id="slides">
+            <img src="./public/imgs/example-slide-1.jpg">
+            <img src="./public/imgs/example-slide-2.jpg">
+            <img src="./public/imgs/example-slide-3.jpg">
+            <img src="./public/imgs/example-slide-4.jpg">
+        </div>
+        <div class="full-screem">
+            <div class="container">
+                <div class="loginForm">
+                    <h1>Log in Or Sign in new user</h1>
+                    <div class="login-nav">
+                        <button id="longinBT" type="button">Log in </button>
+                        <button id="resisterBT" type="button">Sign in </button>
+                    </div>
+                    <form id="formLongin">
+                        <div class="input-container">
+                            <label class="label-nomal" for="user">User</label>
+                            <input id="userLG" type="text" name="user" placeholder="User Name" />
+                        </div>
+                        <div class="input-container">
+                            <label class="label-nomal" for="password">Password</label>
+                            <input id="passwordLG" type="password" name="password" placeholder="password" />
+                        </div>
+                        <div class="input-container">
+                            <input class="submitBt" id="submitLoginBt" type="button" value="Longin" />
+                            <label class="message"></label>
+                        </div>
+                    </form>
+                    <form id="formResiter">
+                        <div class="input-container">
+                            <label class="label-nomal" for="user">User</label>
+                            <input id="user" type="text" name="user" placeholder="User Name" />
+                        </div>
+                        <div class="input-container">
+                            <label class="label-nomal" for="user">Email</label>
+                            <input id="user" type="email" name="email" placeholder="example@users.com" />
+                        </div>
+                        <div class="input-container">
+                            <label class="label-nomal" for="password">Password</label>
+                            <input id="password" type="password" name="password" placeholder="password" />
+                        </div>
+                        <div class="input-container">
+                            <label class="label-nomal" for="password">Re Password</label>
+                            <input id="repassword" type="password" name="repassword" placeholder="repassword" />
+                        </div>
+                        <div class="input-container">
+                            <input class="submitBt" id="submitResisterBt" type="button" value="Residter" />
+                            <label class="message"></label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>

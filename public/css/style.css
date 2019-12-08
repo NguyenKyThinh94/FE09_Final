@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition-delay: 2.0s;
+}
+h1{
+    color: red;
+}
+header{
+    background-color: #dec2c2;
+    width: 100%;
+    z-index: 101;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+li{
+    display: block;
+    width: fit-content;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7b98da;
+    
+}
+li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+img{
+    width: 100vw;
+    height: 100vh;
+}
+/* .slidesjs-pagination{
+    //display: none;
+} */
+#longinContent{
+    position: relative;
+}
+.container{
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+}
+.full-screem{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(91, 99, 83, 0.58);
+}
+.loginForm{
+    width: 600px;
+    margin: auto;
+    margin-top: 25vh;
+    padding: 20px;
+    background-color: rgba(1, 33, 1, 0.7);
+    color: ghostwhite;
+}
+.login-nav,.input-container{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.login-nav button{
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+}
+.label-nomal{
+    display: block;
+    width: 25%;
+    text-align: right;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.input-container input{
+    display: block;
+    width: 70%;
+    height: 35px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.submitBt{
+    width: 150px !important;
+    height: 35px;
+    background-color: teal;
+    border-radius: 5px;
+}
+#formResiter{
+  display: none;
+}
+#slides {
+    display:none;
+    width: 100vw;
+    height: 100vh;
+  }
+.error{
+    color: red;
+    font-size: 13px;
+    font-weight: 500;
+    width: 70%;
+}
+.message{
+    color: red;
+    width: 75%;
+    text-align: left;
+}
+button#longinBT {
+    background-color: rgba(43, 183, 43, 0.7);
+}
+
+button#resisterBT {
+    background-color: rgba(43, 183, 43, 0.7);
+}
+h1{
+    width: 100%;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+}
